@@ -1,0 +1,22 @@
+{
+  "name": "quickstart-druxt-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "3.17.3",
+    "druxt-site": "0.9.0",
+    "nuxt-edge": "^2.16.0-27226092.034b9901"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27234503.d5127e9",
+    "@nuxtjs/storybook": "4.1.1",
+    "opn": "6.0.0",
+    "postcss": "8.3.8"
+  }
+}
